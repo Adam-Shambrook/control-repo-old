@@ -29,3 +29,4 @@ mod 'puppetlabs-translate', '2.2.0'
 mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 # Required only if using Continuous Delivery agents for job hardware
 mod 'puppetlabs-pipelines', '1.0.1'
+mod 'puppetlabs-acl', '4.0.0'
