@@ -15,3 +15,17 @@ mod 'puppetlabs/concat',  '7.0.1'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+
+mod 'puppetlabs-cd4pe', '2.0.2'
+# Requirements for cd4pe
+mod 'puppetlabs-stdlib', '8.1.0'
+mod 'puppetlabs-puppet_authorization', '0.5.1'
+mod 'puppetlabs-hocon', '1.1.0'
+mod 'puppetlabs-concat', '7.1.1'
+mod 'puppetlabs-docker', '4.1.2'
+mod 'puppetlabs-apt', '8.3.0'
+mod 'puppetlabs-translate', '2.2.0'
+mod 'puppetlabs-cd4pe_jobs', '1.5.0'
+# Required only if using Continuous Delivery agents for job hardware
+mod 'puppetlabs-pipelines', '1.0.1'
