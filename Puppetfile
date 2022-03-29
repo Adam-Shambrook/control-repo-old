@@ -17,7 +17,7 @@ mod 'puppetlabs/inifile', '5.0.1'
 
 mod 'puppetlabs-cd4pe', '2.0.2'
 # Requirements for cd4pe
-mod 'puppetlabs-stdlib', '7.0.0'
+mod 'puppetlabs-stdlib', '6.0.0'
 mod 'puppetlabs-puppet_authorization', '0.5.1'
 mod 'puppetlabs-hocon', '1.1.0'
 mod 'puppetlabs-concat', '7.1.1'
